@@ -2,6 +2,7 @@
   <div class="hello">
     <h1 v-if="msg != 10 ? false : true">{{ msg }}</h1>
     <h2>{{ msg }}</h2>
+    <h2>{{ msg }}</h2>
     <h2>{{ as }}</h2>
     <!-- <button v-on:click="Plus()">click</button> -->
     <input v-model="msg" /> <br />
